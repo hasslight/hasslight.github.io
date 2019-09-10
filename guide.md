@@ -19,6 +19,15 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 ### Flash firmware
 
+#### Windows
+1. Install [CH340G driver](https://sparks.gogo.co.nz/ch340.html) if you never did this on your system.
+2. Download ["Flash Download Tools (ESP8266 & ESP32)"](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.7_1.zip) from Espressif.com
+3. Download [rboot.bin](), [blank_config.bin](), [hasslight_firmware_latest.bin]() 
+4. Start Flash Download Tools
+
+#### Mac
+
+
 ## Home Assistant
 ### Setup Steps
 ### Flash firmware

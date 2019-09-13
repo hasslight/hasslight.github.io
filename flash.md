@@ -13,7 +13,7 @@ The following guide helps you flash HassLight LED controller with Apple Homekit 
 ### Mac / Windows
 
 1. Install [CH340G driver](https://sparks.gogo.co.nz/ch340.html) if you never have done this on your OS.
-2. Download [HassLightFlasher.exe](HassLightFlasher-4.0.exe) for Windows or [HassLightFlasher.dmg](HassLightFlasher-4.0.dmg) for Mac 
+2. Download [HassLightFlasher.exe](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0-x64.exe) for Windows or [HassLightFlasher.dmg](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0.dmg) for Mac 
 3. Download [holiday_firmware.bin]() or [mood_firmware.bin]() 
 4. Start HassLightFlasher
    * Choose serial port, click refresh if not seen

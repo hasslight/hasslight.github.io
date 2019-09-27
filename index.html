@@ -19,11 +19,19 @@
       subMaxLevel: 3,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
       }
       // coverpage: true
       //...
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 </html>

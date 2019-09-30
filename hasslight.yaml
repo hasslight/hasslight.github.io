@@ -1,0 +1,80 @@
+# !!! REPLACE all the "hasslight_xxxxxx" WITH YOUR DEVICE_ID !!!
+
+light:
+  - platform: mqtt
+    schema: json
+    name: "HassLight Holiday"
+    state_topic: "home/hasslight_xxxxxx"
+    command_topic: "home/hasslight_xxxxxx/set"
+    availability_topic: "home/hasslight_xxxxxx/availability"
+    effect: true
+    effect_list:
+      - "Christmas"
+      - "Candy Cane"
+      - "Holly Jolly"
+      - "Valentine"
+      - "Lovey Day"
+      - "St Patty"
+      - "Easter"
+      - "USA"
+      - "Independence"
+      - "Go Blue"
+      - "Hail"
+      - "Touchdown"
+      - "Halloween"
+      - "Punkin"
+      - "Thanksgiving"
+      - "Turkey Day"
+      - "BPM"
+      - "Confetti"
+      - "Cyclon Rainbow"
+      - "Dots"
+      - "Fire"
+      - "Glitter"
+      - "Juggle"
+      - "Lightning"
+      - "Noise"
+      - "Police All"
+      - "Police One"
+      - "Rainbow"
+      - "Rainbow with Glitter"
+      - "Ripple"
+      - "Sinelon"
+      - "Solid"
+      - "Twinkle"
+      - "StepByStep_1_300"
+      - "StepByStep_1_500"
+    brightness: true
+    rgb: true
+    optimistic: false
+    qos: 0
+ 
+input_number:
+  led_animation_speed:
+    name: LED Animation Speed
+    initial: 100
+    min: 1
+    max: 100
+    step: 10 
+   
+automation: 
+  - alias: "LED Animation Speed"
+    initial_state: True
+    hide_entity: False
+    trigger:
+      - platform: state
+        entity_id: input_number.led_animation_speed
+    action:
+      - service: mqtt.publish
+        data_template:
+          topic: "home/hasslight_xxxxxx/set"
+          payload: '{"transition":{{ trigger.to_state.state | int }}}'
+          
+group:
+  hasslight:
+    name: HassLight
+    entities:
+      - light.hasslight_holiday
+      - input_number.led_animation_speed
+      - automation.led_animation_speed
+

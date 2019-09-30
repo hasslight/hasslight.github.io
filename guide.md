@@ -21,25 +21,25 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
    **Single click** the button on the controller to toggle it on/off.  
    **Double click** the button on the controller to switch the build in themes. (White, Blink, Christmas, Halloween, Rainbow, Twinkle)
 
-3. You will need an iPhone/iPad to configure the controller to connect to your home WiFi network.
+3. Use an iPhone/iPad to configure the controller to connect to your home WiFi network.
 
 <!-- tabs:start -->
 
-    #### ** Open Settings **
+    #### ** 3.1 **
 
     Open Settings -> WLAN
 
-    #### ** Choose a Network **
+    #### ** 3.2 **
 
     CHOOSE A NETWORK -> HassLight-XXXXXX 
 
-    #### ** Config HassLight's Home WiFi**
+    #### ** 3.3 **
 
     Join HassLight to your Home WiFi
 
-    #### ** Wait 10 seconds **
+    #### ** 3.4 **
 
-    Wait for iOS to automatically connect back to your Home WiFi
+    Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
 
 <!-- tabs:end -->
 
@@ -47,19 +47,21 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 <!-- tabs:start -->
 
-    #### ** Open Home App **
+    #### ** 4.1 **
 
     Open Home App, Click "+" on top right, Choose "Add Accessory"
 
-    #### ** Scan QRCode **
+    #### ** 4.2 **
 
     CHOOSE A NETWORK -> HassLight-XXXXXX 
+    
+    Scan QRCode
 
-    #### ** Next, Next **
+    #### ** 4.3 **
 
     Join HassLight to your Home WiFi
 
-    #### ** Done **
+    #### ** 4.4 **
 
     Wait for iOS to automatically connect back to your Home WiFi
 
@@ -115,3 +117,21 @@ If settings are correct, your LED strip should be ON by now, the controller will
 <!-- tabs:end -->
 
 2. Configure Home Assistant
+
+  2.1 Copy the [example.yaml](./hass.md) and Replace the device id with yours.  
+
+  2.2  
+  **Option 1:** Paste into to *configuration.yaml*  
+  **Option 2:** Save it as a **hasslight.yaml** and place into packages folder if enabled in *configuration.yaml*.
+
+  ```
+  homeassistant:    
+      packages: !include_dir_named packages  
+  ```
+
+  2.3 Go to Config -> Server Control -> Check config, if valid then Restart Home Assistant
+
+  2.4 Find it at Home Assistant Home or unused-entities, you have full control now
+
+  ![](./imgs/ha/config_ha_6.jpg ':size=680')
+  

@@ -118,7 +118,7 @@ If settings are correct, your LED strip should be ON by now, the controller will
 
 2. Configure Home Assistant
 
-  2.1 Copy the [example.yaml](./hass.md) and Replace the device id with yours.  
+  2.1 Copy the [example.yaml](./hass.md?id=home-assistant-example-configuration) and Replace the device id with yours.  
 
   2.2  
   **Option 1:** Paste into to *configuration.yaml*  

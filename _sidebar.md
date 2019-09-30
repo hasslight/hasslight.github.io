@@ -1,5 +1,5 @@
 * [Home](/)
 * [User Manual](/guide)
 * [Flash Firmware](/flash)
-
+* [Extend LED Strip](/extend)
 * [Online Stores](/store)

@@ -25,21 +25,21 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 <!-- tabs:start -->
 
-    #### ** 3.1 **
+  #### ** 1 **
 
-    Open Settings -> WLAN
+  Open Settings -> WLAN
 
-    #### ** 3.2 **
+  #### ** 2 **
 
-    CHOOSE A NETWORK -> HassLight-XXXXXX 
+  CHOOSE A NETWORK -> HassLight-XXXXXX 
 
-    #### ** 3.3 **
+  #### ** 3 **
 
-    Join HassLight to your Home WiFi
+  Join HassLight to your Home WiFi
 
-    #### ** 3.4 **
+  #### ** 4 **
 
-    Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
+  Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
 
 <!-- tabs:end -->
 
@@ -47,23 +47,23 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 <!-- tabs:start -->
 
-    #### ** 4.1 **
+  #### ** 1 **
 
-    Open Home App, Click "+" on top right, Choose "Add Accessory"
+  Open Home App, Click "+" on top right, Choose "Add Accessory"
 
-    #### ** 4.2 **
+  #### ** 2 **
 
-    CHOOSE A NETWORK -> HassLight-XXXXXX 
-    
-    Scan QRCode
+  CHOOSE A NETWORK -> HassLight-XXXXXX 
+  
+  Scan QRCode
 
-    #### ** 4.3 **
+  #### ** 3 **
 
-    Join HassLight to your Home WiFi
+  Join HassLight to your Home WiFi
 
-    #### ** 4.4 **
+  #### ** 4 **
 
-    Wait for iOS to automatically connect back to your Home WiFi
+  Wait for iOS to automatically connect back to your Home WiFi
 
 <!-- tabs:end -->
 
@@ -75,8 +75,8 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 ## Home Assistant
 
-  **This may change in furture with firmware upgrade.** Unlike homekit based firmware, the Home Assistant based firmware requires you to configure WiFi and MQTT settings first before you can use button click. 
-  After that, even if MQTT connection unavailable, offline button control is always functional. 
+  Unlike homekit based firmware, the Home Assistant based firmware requires you to configure WiFi and MQTT settings first before you can use button click. 
+  After that, even if MQTT connection unavailable, offline button control is always functional.  **This may change in furture with firmware upgrade.**  
 
 1. Connect the controller to your home WiFi network and configure MQTT settings  
   **Take a screenshot of your device id (WiFi name: hasslight_xxxxxx) which you'll need for next step**
@@ -116,7 +116,9 @@ If settings are correct, your LED strip should be ON by now, the controller will
 
 <!-- tabs:end -->
 
-2. Configure Home Assistant
+###  [example.yaml](./hass.md?id=home-assistant-example-configuration)
+
+2. Configure Home Assistant  
 
   2.1 Copy the [example.yaml](./hass.md?id=home-assistant-example-configuration) and Replace the device id with yours.  
 

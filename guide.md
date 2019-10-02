@@ -59,25 +59,40 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Home App, Click "+" on top right, Choose "Add Accessory"
 
+  ![](./imgs/ios/homekit_1.jpg ':size=400')
+
   #### ** 2 **
 
-  CHOOSE A NETWORK -> HassLight-XXXXXX 
-  
-  Scan QRCode
+  Add by Scan QRCode below, when see prompt "UnCertified Accessory", Click "Add Anyway"
 
+  2.1 | 2.2 | 2.3 | 2.4
+  --  | --  | --  | --
+  ![](./imgs/ios/homekit_2_1.jpg ':size=400') | ![](./imgs/ios/homekit_2_2.jpg ':size=400') | ![](./imgs/ios/homekit_2_3.jpg ':size=400') | ![](./imgs/ios/homekit_2_4.jpg ':size=400')
+
+  The QRCode  
   ![](./imgs/qrcode.png ':size=400')
 
   #### ** 3 **
 
-  Join HassLight to your Home WiFi
+  Add Accessory one by one, just click **Next** all the way till the end.   
+  By the way the LED strip will blink 3 times for "Indentify Accessory", since it's just one phicical device, thus the effects are virtual buttons for convenience.
+
+  ~ | ~ | ~ | ~
+  --  | --  | --  | --
+  ![](./imgs/ios/homekit_3_1.jpg ':size=400') | ![](./imgs/ios/homekit_3_2.jpg ':size=400') | ![](./imgs/ios/homekit_3_3.jpg ':size=400') | ![](./imgs/ios/homekit_3_4.jpg ':size=400')
+  ![](./imgs/ios/homekit_3_5.jpg ':size=400') | ![](./imgs/ios/homekit_3_6.jpg ':size=400') | ![](./imgs/ios/homekit_3_7.jpg ':size=400') | ![](./imgs/ios/homekit_3_8.jpg ':size=400')
 
   #### ** 4 **
 
-  Wait for iOS to automatically connect back to your Home WiFi
+  Your holiday or mood LED strip is ready.
+
+  ![](./imgs/ios/homekit_4.jpg ':size=400') 
 
 <!-- tabs:end -->
 
-5. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
+5. Change the LED effect / speed etc.
+
+6. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
 
   **Press and Hold** for 6 seconds to reset the controller, the LED strip will blink for 3 rounds to indicate that reset is done. Then go back to step 3 to connect it back.
 

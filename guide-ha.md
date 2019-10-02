@@ -54,7 +54,6 @@ If settings are correct, your LED strip should be ON by now, the controller will
 
 <!-- tabs:end -->
 
-##  [example.yaml](./hass.md?id=home-assistant-example-configuration)
 
 2. Configure Home Assistant  
 

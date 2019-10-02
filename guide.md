@@ -29,17 +29,25 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Settings -> WLAN
 
+  ![](./imgs/ios/ios_wifi_1.jpg ':size=400')
+
   #### ** 2 **
 
   CHOOSE A NETWORK -> HassLight-XXXXXX 
 
+  ![](./imgs/ios/ios_wifi_2.jpg ':size=400')
+  
   #### ** 3 **
 
   Join HassLight to your Home WiFi
 
+  ![](./imgs/ios/ios_wifi_3.jpg ':size=400')
+
   #### ** 4 **
 
   Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
+
+  ![](./imgs/ios/ios_wifi_4.jpg ':size=400')
 
 <!-- tabs:end -->
 
@@ -56,6 +64,8 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
   CHOOSE A NETWORK -> HassLight-XXXXXX 
   
   Scan QRCode
+
+  ![](./imgs/qrcode.png ':size=400')
 
   #### ** 3 **
 

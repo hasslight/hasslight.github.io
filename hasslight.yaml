@@ -1,4 +1,4 @@
-# !!! REPLACE all the "hasslight_xxxxxx" WITH YOUR DEVICE_ID !!!
+# !!! REPLACE ALL THE "hasslight_xxxxxx" WITH YOUR DEVICE_ID !!!
 
 light:
   - platform: mqtt

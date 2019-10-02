@@ -7,5 +7,4 @@
   * [Flash Firmware](/flash)
   * [Extend LED Strip](/extend)
 
-* Buy  
-  * [Online Stores](/store)
+* [Online Stores](/store)

@@ -15,6 +15,8 @@ We have 2 products.
 
 # Gallery
 
+![](imgs/holiday1.png)
+
 ![](https://via.placeholder.com/1024x768.png?text=Holiday+LED)
 
 ![](https://via.placeholder.com/1024x768.png?text=Mood+LED)

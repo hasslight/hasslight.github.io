@@ -42,8 +42,6 @@ light:
       - "Sinelon"
       - "Solid"
       - "Twinkle"
-      - "StepByStep_1_300"
-      - "StepByStep_1_500"
     brightness: true
     rgb: true
     optimistic: false

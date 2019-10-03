@@ -1,7 +1,10 @@
 :root {
     /* --theme-color   : orange; */
 }
-
+.app-nav > a {
+    margin: 0 1rem;
+    padding: 5px 0;
+}
 .sidebar li>p {
     font-weight: 600;
     margin: 0;

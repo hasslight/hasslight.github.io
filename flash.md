@@ -19,7 +19,7 @@ Have fun!
 3.2 For Home Assistant [holiday_firmware_ha.bin]() or [mood_firmware_ha.bin]()  
 3.3 *If you are using Linux*, you need 2 additional files [rboot.bin]() and [blank_config.bin]()  
 
-> When extending the LED strip longer, you need the prolonged firmware. Check this [Extend the LED Strip]()
+> When extending the LED strip longer, you need the prolonged firmware. Check this [Extend LED Strip](/extend)
 
 ## Apple Homekit
 

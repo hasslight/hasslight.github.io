@@ -2,23 +2,33 @@
 HassLight LED controller let you connect LED strip to your smart home, and control it via "Siri" or "Alexa" or any other smart speakers connected to Home Assistant. 
 
 We have 2 products. 
-* Holiday LED 
-* Mood LED
+* Holiday LED (5V)
+* Mood LED (12V)
 
 # Features
- * Holiday themes
- * Mood lighting 
- * Can be extended 
- * Use iOS Home APP or Home Assistant at your choise
- * Firmware upgrade
- * Friendly with DIY fans 
+
+- Flawless compatibility with Apple HomeKit; Simply ask siri to control your lights, from turning them on or off, adjusting the brightness, or even changing the color
+
+- Infinitely Adjustable Colors and Whites > reinvent lighting for your home with 16 million stunning shades of color, including warm and cool whites; or for just different times of the day, with customizable preset effects (xmas, halloween, rainbow, twinkle, blink) and Effects Speed is Adjustable
+
+- The light strip can be extended up to 16 ft/5m (12v version only with 60w power supply)
+
+- No hub required; control from nearly anywhere, via an Apple TV (4th Gen onwards), HomPod, iPad (capable of running iOS 12) located at your home
+
+- Use iOS Home APP or Home Assistant at your choise
+
+- Firmware upgrade
+
+- Friendly with DIY fans 
 
 # Gallery
 
 ![](imgs/holiday1.png)
+![](imgs/mood1.jpg ':size=620')
+![](imgs/mood2.jpg ':size=620')
+![](imgs/mood3.jpg ':size=620')
+![](imgs/mood4.jpg ':size=620')
+![](imgs/hasslight.jpg ':size=620')
 
-![](https://via.placeholder.com/1024x768.png?text=Holiday+LED)
-
-![](https://via.placeholder.com/1024x768.png?text=Mood+LED)
 
 

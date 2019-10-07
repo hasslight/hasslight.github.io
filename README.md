@@ -13,7 +13,7 @@ We have 2 products.
 
 - The light strip can be extended up to 16 ft/5m (12v version only with 60w power supply)
 
-- No hub required; control from nearly anywhere, via an Apple TV (4th Gen onwards), HomPod, iPad (capable of running iOS 12) located at your home
+- No hub required; control from nearly anywhere, via an Apple TV (4th Gen onwards), HomePod, iPad (capable of running iOS 12+) located at your home
 
 - Use iOS Home APP or Home Assistant at your choise
 

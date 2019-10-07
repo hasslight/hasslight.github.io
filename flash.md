@@ -31,7 +31,7 @@ Have fun!
    * Choose serial port, click refresh if not seen
    * Choose the firmware.bin which you just download 
    * Click "Flash" button, a successful flash looks like the example pictures below
-* Next, follow the [User Maunal](guide) to config
+* Next, follow the [User Manual](guide) to config
 
 ![](./imgs/hasslightflasher-mac.png)
 
@@ -45,7 +45,7 @@ Have fun!
     $ pip install esptool   
     $ esptool.py --chip esp8266 -p /dev/cu.wchusbserial620 --baud 115200 write_flash -fs detect -fm dio -ff 40m 0x0 rboot.bin 0x1000 blank_config.bin 0x2000 holiday_firmware.bin 
 
-* Next, follow the [User Maunal](guide) to config
+* Next, follow the [User Manual](guide) to config
 ----
 
 ## Home Assistant
@@ -56,7 +56,7 @@ Have fun!
    * Choose the firmware.bin which you just download 
    * Toggle "Default / Home Assistant / MQTT" integration
    * Click "Flash" button, a successful flash looks like the example pictures below
-* Next, follow the [User Maunal](guide) to config
+* Next, follow the [User Manual](guide) to config
 
 ![](./imgs/hasslightflasher-mac-ha.png)
 
@@ -69,4 +69,4 @@ Have fun!
     $ pip install esptool   
     $ esptool.py --chip esp8266 -p /dev/cu.wchusbserial620 --baud 115200 write_flash -fs detect -fm dio -ff 40m 0x0 holiday_firmware.bin 
 
-* Next, follow the [User Maunal](guide) to config
+* Next, follow the [User Manual](guide) to config

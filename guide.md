@@ -11,7 +11,7 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 ----
 
-## Apple Homekit
+## Guide
 
 > For simplicity "the HassLight LED Controller" hereinafter referred to as "the controller" 
 
@@ -29,17 +29,25 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Settings -> WLAN
 
+  ![](./imgs/ios/ios_wifi_1.jpg ':size=400')
+
   #### ** 2 **
 
   CHOOSE A NETWORK -> HassLight-XXXXXX 
 
+  ![](./imgs/ios/ios_wifi_2.jpg ':size=400')
+  
   #### ** 3 **
 
   Join HassLight to your Home WiFi
 
+  ![](./imgs/ios/ios_wifi_3.jpg ':size=400')
+
   #### ** 4 **
 
   Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
+
+  ![](./imgs/ios/ios_wifi_4.jpg ':size=400')
 
 <!-- tabs:end -->
 
@@ -51,89 +59,41 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Home App, Click "+" on top right, Choose "Add Accessory"
 
+  ![](./imgs/ios/homekit_1.jpg ':size=400')
+
   #### ** 2 **
 
-  CHOOSE A NETWORK -> HassLight-XXXXXX 
-  
-  Scan QRCode
+  Add by Scan QRCode below, when see prompt "UnCertified Accessory", Click "Add Anyway"
+
+  2.1 | 2.2 | 2.3 | 2.4
+  --  | --  | --  | --
+  ![](./imgs/ios/homekit_2_1.jpg ':size=400') | ![](./imgs/ios/homekit_2_2.jpg ':size=400') | ![](./imgs/ios/homekit_2_3.jpg ':size=400') | ![](./imgs/ios/homekit_2_4.jpg ':size=400')
+
+  The QRCode  
+  ![](./imgs/qrcode.png ':size=400')
 
   #### ** 3 **
 
-  Join HassLight to your Home WiFi
+  Add Accessory one by one, just click **Next** all the way till the end.   
+  By the way the LED strip will blink 3 times for "Indentify Accessory", since it's just one phicical device, thus the effects are virtual buttons for convenience.
+
+  ~ | ~ | ~ | ~
+  --  | --  | --  | --
+  ![](./imgs/ios/homekit_3_1.jpg ':size=400') | ![](./imgs/ios/homekit_3_2.jpg ':size=400') | ![](./imgs/ios/homekit_3_3.jpg ':size=400') | ![](./imgs/ios/homekit_3_4.jpg ':size=400')
+  ![](./imgs/ios/homekit_3_5.jpg ':size=400') | ![](./imgs/ios/homekit_3_6.jpg ':size=400') | ![](./imgs/ios/homekit_3_7.jpg ':size=400') | ![](./imgs/ios/homekit_3_8.jpg ':size=400')
 
   #### ** 4 **
 
-  Wait for iOS to automatically connect back to your Home WiFi
+  Your holiday or mood LED strip is ready.
+
+  ![](./imgs/ios/homekit_4.jpg ':size=400') 
 
 <!-- tabs:end -->
 
-5. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
+5. Change the LED effect / speed etc.
+
+6. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
 
   **Press and Hold** for 6 seconds to reset the controller, the LED strip will blink for 3 rounds to indicate that reset is done. Then go back to step 3 to connect it back.
 
 ----
-
-## Home Assistant
-
-  Unlike homekit based firmware, the Home Assistant based firmware requires you to configure WiFi and MQTT settings first before you can use button click. 
-  After that, even if MQTT connection unavailable, offline button control is always functional.  **This may change in furture with firmware upgrade.**  
-
-1. Connect the controller to your home WiFi network and configure MQTT settings  
-  **Take a screenshot of your device id (WiFi name: hasslight_xxxxxx) which you'll need for next step**
-
-
-<!-- tabs:start -->
-
-#### ** 1 **
-
-WiFi Settings  
-![](./imgs/ha/config_ha_1.jpg ':size=480')
-
-#### ** 2 **
-
-CHOOSE A NETWORK -> hasslight_xxxxxx  
-
-![](./imgs/ha/config_ha_2.jpg ':size=480')
-
-#### ** 3 **
-
-Configure WiFi  
-
-![](./imgs/ha/config_ha_3.jpg ':size=480')
-
-#### ** 4 **
-
-Type in MQTT IP,PORT,USERNAME,PASSWORD  
-Most users use Hass.io Mosquito Addon, If you are on NAS docker, you know what to do.  
-
-![](./imgs/ha/config_ha_4.jpg ':size=480')
-
-#### ** 5 **
-
-If settings are correct, your LED strip should be ON by now, the controller will publish available message to your MQTT server, so now you can use button to toggle ON/OFF.  
-
-![](./imgs/ha/config_ha_5.jpg ':size=480')
-
-<!-- tabs:end -->
-
-###  [example.yaml](./hass.md?id=home-assistant-example-configuration)
-
-2. Configure Home Assistant  
-
-  2.1 Copy the [example.yaml](./hass.md?id=home-assistant-example-configuration) and Replace the device id with yours.  
-
-  2.2  
-  **Option 1:** Paste into to *configuration.yaml*  
-  **Option 2:** Save it as a **hasslight.yaml** and place into packages folder if enabled in *configuration.yaml*.
-
-  ```
-  homeassistant:    
-      packages: !include_dir_named packages  
-  ```
-
-  2.3 Go to Config -> Server Control -> Check config, if valid then Restart Home Assistant
-
-  2.4 Find it at Home Assistant Home or unused-entities, you have full control now
-
-  ![](./imgs/ha/config_ha_6.jpg ':size=680')
-  

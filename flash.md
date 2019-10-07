@@ -19,7 +19,7 @@ Have fun!
 3.2 For Home Assistant [holiday_firmware_ha.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/holiday_firmware_RGB_ha.bin) or [mood_firmware_ha.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/mood_firmware_BRG_ha.bin)  
 3.3 *If you are using Linux*, you need 2 additional files [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
 
-> When extending the LED strip longer, Check this [Extend LED Strip]()
+> When extending the LED strip longer, check this [Extend LED Strip](/extend)
 
 ## Apple Homekit
 

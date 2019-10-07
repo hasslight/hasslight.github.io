@@ -15,11 +15,11 @@ Have fun!
 1. Install [CH340G driver](https://sparks.gogo.co.nz/ch340.html) if you have never done this on your OS.
 2. Download [HassLightFlasher.exe](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0-x64.exe) for Windows or [HassLightFlasher.dmg](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0.dmg) for Mac 
 3. Choose the firmware to download  
-3.1 For Apple Homekit  [holiday_firmware.bin]() or [mood_firmware.bin]()  
-3.2 For Home Assistant [holiday_firmware_ha.bin]() or [mood_firmware_ha.bin]()  
-3.3 *If you are using Linux*, you need 2 additional files [rboot.bin]() and [blank_config.bin]()  
+3.1 For Apple Homekit  [holiday_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/holiday_firmware_RGB.bin) or [mood_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/mood_firmware_BRG.bin)  
+3.2 For Home Assistant [holiday_firmware_ha.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/holiday_firmware_RGB_ha.bin) or [mood_firmware_ha.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/mood_firmware_BRG_ha.bin)  
+3.3 *If you are using Linux*, you need 2 additional files [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
 
-> When extending the LED strip longer, you need the prolonged firmware. Check this [Extend the LED Strip]()
+> When extending the LED strip longer, Check this [Extend LED Strip]()
 
 ## Apple Homekit
 

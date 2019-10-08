@@ -23,12 +23,12 @@ We have 2 products.
 
 # Gallery
 
-![](imgs/holiday1.png)
-![](imgs/mood1.jpg ':size=620')
-![](imgs/mood2.jpg ':size=620')
-![](imgs/mood3.jpg ':size=620')
-![](imgs/mood4.jpg ':size=620')
-![](imgs/hasslight.jpg ':size=620')
+![](/imgs/holiday1.png)
+![](/imgs/mood1.jpg ':size=620')
+![](/imgs/mood2.jpg ':size=620')
+![](/imgs/mood3.jpg ':size=620')
+![](/imgs/mood4.jpg ':size=620')
+![](/imgs/hasslight.jpg ':size=620')
 
 
 

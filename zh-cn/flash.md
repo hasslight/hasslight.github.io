@@ -33,9 +33,9 @@ Have fun!
    * Click "Flash" button, a successful flash looks like the example pictures below
 * Next, follow the [User Manual](guide) to config
 
-![](/imgs/hasslightflasher-mac.png)
+![](../imgs/hasslightflasher-mac.png)
 
-![](/imgs/hasslightflasher-win.png)
+![](../imgs/hasslightflasher-win.png)
 
 
 ### Linux
@@ -58,9 +58,9 @@ Have fun!
    * Click "Flash" button, a successful flash looks like the example pictures below
 * Next, follow the [User Manual](guide) to config
 
-![](/imgs/hasslightflasher-mac-ha.png)
+![](../imgs/hasslightflasher-mac-ha.png)
 
-![](/imgs/hasslightflasher-win-ha.png)
+![](../imgs/hasslightflasher-win-ha.png)
 
 ### Linux
 

@@ -29,25 +29,25 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Settings -> WLAN
 
-  ![](./imgs/ios/ios_wifi_1.jpg ':size=400')
+  ![](/imgs/ios/ios_wifi_1.jpg ':size=400')
 
   #### ** 2 **
 
   CHOOSE A NETWORK -> HassLight-XXXXXX 
 
-  ![](./imgs/ios/ios_wifi_2.jpg ':size=400')
+  ![](/imgs/ios/ios_wifi_2.jpg ':size=400')
   
   #### ** 3 **
 
   Join HassLight to your Home WiFi
 
-  ![](./imgs/ios/ios_wifi_3.jpg ':size=400')
+  ![](/imgs/ios/ios_wifi_3.jpg ':size=400')
 
   #### ** 4 **
 
   Wait for about 10 seconds, then iOS will automatically connect back to your Home WiFi
 
-  ![](./imgs/ios/ios_wifi_4.jpg ':size=400')
+  ![](/imgs/ios/ios_wifi_4.jpg ':size=400')
 
 <!-- tabs:end -->
 
@@ -59,7 +59,7 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   Open Home App, Click "+" on top right, Choose "Add Accessory"
 
-  ![](./imgs/ios/homekit_1.jpg ':size=400')
+  ![](/imgs/ios/homekit_1.jpg ':size=400')
 
   #### ** 2 **
 
@@ -67,10 +67,10 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   2.1 | 2.2 | 2.3 | 2.4
   --  | --  | --  | --
-  ![](./imgs/ios/homekit_2_1.jpg ':size=400') | ![](./imgs/ios/homekit_2_2.jpg ':size=400') | ![](./imgs/ios/homekit_2_3.jpg ':size=400') | ![](./imgs/ios/homekit_2_4.jpg ':size=400')
+  ![](/imgs/ios/homekit_2_1.jpg ':size=400') | ![](/imgs/ios/homekit_2_2.jpg ':size=400') | ![](/imgs/ios/homekit_2_3.jpg ':size=400') | ![](/imgs/ios/homekit_2_4.jpg ':size=400')
 
   The QRCode  
-  ![](./imgs/qrcode.png ':size=400')
+  ![](/imgs/qrcode.png ':size=400')
 
   #### ** 3 **
 
@@ -79,14 +79,14 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
   ~ | ~ | ~ | ~
   --  | --  | --  | --
-  ![](./imgs/ios/homekit_3_1.jpg ':size=400') | ![](./imgs/ios/homekit_3_2.jpg ':size=400') | ![](./imgs/ios/homekit_3_3.jpg ':size=400') | ![](./imgs/ios/homekit_3_4.jpg ':size=400')
-  ![](./imgs/ios/homekit_3_5.jpg ':size=400') | ![](./imgs/ios/homekit_3_6.jpg ':size=400') | ![](./imgs/ios/homekit_3_7.jpg ':size=400') | ![](./imgs/ios/homekit_3_8.jpg ':size=400')
+  ![](/imgs/ios/homekit_3_1.jpg ':size=400') | ![](/imgs/ios/homekit_3_2.jpg ':size=400') | ![](/imgs/ios/homekit_3_3.jpg ':size=400') | ![](/imgs/ios/homekit_3_4.jpg ':size=400')
+  ![](/imgs/ios/homekit_3_5.jpg ':size=400') | ![](/imgs/ios/homekit_3_6.jpg ':size=400') | ![](/imgs/ios/homekit_3_7.jpg ':size=400') | ![](/imgs/ios/homekit_3_8.jpg ':size=400')
 
   #### ** 4 **
 
   Your holiday or mood LED strip is ready.
 
-  ![](./imgs/ios/homekit_4.jpg ':size=400') 
+  ![](/imgs/ios/homekit_4.jpg ':size=400') 
 
 <!-- tabs:end -->
 

@@ -25,32 +25,32 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 #### ** 1 **
 
 WiFi Settings  
-![](./imgs/ha/config_ha_1.jpg ':size=480')
+![](/imgs/ha/config_ha_1.jpg ':size=480')
 
 #### ** 2 **
 
 CHOOSE A NETWORK -> hasslight_xxxxxx  
 
-![](./imgs/ha/config_ha_2.jpg ':size=480')
+![](/imgs/ha/config_ha_2.jpg ':size=480')
 
 #### ** 3 **
 
 Configure WiFi  
 
-![](./imgs/ha/config_ha_3.jpg ':size=480')
+![](/imgs/ha/config_ha_3.jpg ':size=480')
 
 #### ** 4 **
 
 Type in MQTT IP,PORT,USERNAME,PASSWORD  
 Most users use Hass.io Mosquito Addon, If you are on NAS docker, you know what to do.  
 
-![](./imgs/ha/config_ha_4.jpg ':size=480')
+![](/imgs/ha/config_ha_4.jpg ':size=480')
 
 #### ** 5 **
 
 If settings are correct, your LED strip should be ON by now, the controller will publish available message to your MQTT server, so now you can use button to toggle ON/OFF.  
 
-![](./imgs/ha/config_ha_5.jpg ':size=480')
+![](/imgs/ha/config_ha_5.jpg ':size=480')
 
 <!-- tabs:end -->
 
@@ -72,5 +72,5 @@ If settings are correct, your LED strip should be ON by now, the controller will
 
   2.4 Find it at Home Assistant Home or unused-entities, you have full control now
 
-  ![](./imgs/ha/config_ha_6.jpg ':size=680')
+  ![](/imgs/ha/config_ha_6.jpg ':size=680')
   

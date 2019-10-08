@@ -3,17 +3,17 @@
 HassLight LED Controller let you connect LED strip to your smart home, and control it via "Siri" or "Alexa" or any other smart speakers connected to Home Assistant. 
 
 For now we support two ways of integrating. 
-1. Connect to Apple Homekit (iOS Home APP)
+1. Connect to Apple HomeKit (iOS Home APP)
 2. Connect to Home Assistant 
 
-By default, it comes with the homekit based firmware to interact with iOS Home APP.
+By default, it comes with the HomeKit based firmware to interact with iOS Home APP.
 We also made it quite easy to flash the MQTT based firmware, in order to interact with Home Assistant. And of course you can switch the two ways back and forth. See [Flash firmware](flash).
 
 ----
 
 ## Guide
 
-  Unlike homekit based firmware, the Home Assistant based firmware requires you to configure WiFi and MQTT settings first before you can use button click. 
+  Unlike HomeKit based firmware, the Home Assistant based firmware requires you to configure WiFi and MQTT settings first before you can use button click. 
   After that, even if MQTT connection unavailable, offline button control is always functional.  **This may change in furture with firmware upgrade.**  
 
 1. Connect the controller to your home WiFi network and configure MQTT settings  

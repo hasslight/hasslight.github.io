@@ -1,6 +1,6 @@
 * Getting started
   * [Home](/)
-  * [Use Apple Homekit](/guide)
+  * [Use Apple HomeKit](/guide)
   * [Use Home Assistant](/guide-ha)
     
 * Customization

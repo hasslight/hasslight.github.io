@@ -14,7 +14,7 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
  - 灯条最多可以扩展到16 ft / 5m（12v版本使用60w电源）
 
- - 无需集线器，通过位于您家中的Apple TV（第4代以上），HomePod，iPad（能够运行iOS 12+）在几乎任何地方进行控制
+ - 无需Hub，通过位于您家中的Apple TV（第4代以上），HomePod，iPad（能够运行iOS 12+）在几乎任何地方进行控制
 
  - 选择使用iOS 家庭 APP 或 Home Assistant
 

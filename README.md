@@ -9,7 +9,7 @@ We have 2 products.
 
 - Flawless compatibility with Apple HomeKit; Simply ask siri to control your lights, from turning them on or off, adjusting the brightness, or even changing the color
 
-- Infinitely Adjustable Colors and Whites > reinvent lighting for your home with 16 million stunning shades of color, including warm and cool whites; or for just different times of the day, with customizable preset effects (xmas, halloween, rainbow, twinkle, blink) and Effects Speed is Adjustable
+- Infinitely Adjustable Colors and Whites > reinvent lighting for your home with 16 million stunning shades of color, including warm and cool whites; or for just different times of the day, with customizable preset effects (xmas, halloween, rainbow, twinkle, fireworks) and Effects Speed is Adjustable
 
 - The light strip can be extended up to 16 ft/5m (12v version only with 60w power supply)
 

@@ -2,6 +2,7 @@
   * [首页](/zh-cn/)
   * [使用 Apple HomeKit](/zh-cn/guide)
   * [使用 Home Assistant](/zh-cn/guide-ha)
+  * [使用 WLED](/zh-cn/guide-wled)
     
 * 定制
   * [刷写固件](/zh-cn/flash)

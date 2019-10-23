@@ -77,6 +77,11 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
   Add Accessory one by one, just click **Next** all the way till the end.   
   By the way the LED strip will blink 3 times for "Indentify Accessory", since it's just one phicical device, thus the effects are virtual buttons for convenience.
 
+  **For iOS13**:  
+  ![](/imgs/ios/homekit_3_ios13.jpg ':size=400') 
+
+  **For iOS12**:  
+
   ~ | ~ | ~ | ~
   --  | --  | --  | --
   ![](/imgs/ios/homekit_3_1.jpg ':size=400') | ![](/imgs/ios/homekit_3_2.jpg ':size=400') | ![](/imgs/ios/homekit_3_3.jpg ':size=400') | ![](/imgs/ios/homekit_3_4.jpg ':size=400')
@@ -85,7 +90,15 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
   #### ** 4 **
 
   Your holiday or mood LED strip is ready.
+  
+  **For iOS13**:  
 
+  ~ | ~ 
+  --  | -- 
+  ![](/imgs/ios/homekit_4_1_ios13.jpg ':size=400') | ![](/imgs/ios/homekit_4_2_ios13.jpg ':size=400') 
+
+
+  **For iOS12**:  
   ![](/imgs/ios/homekit_4.jpg ':size=400') 
 
 <!-- tabs:end -->

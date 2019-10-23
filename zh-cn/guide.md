@@ -76,6 +76,11 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
   逐一添加配件，只需单击**下一步**直至结束。 顺便说一下，LED灯条将闪烁3次以显示"识别"设备正常，因为它只是一个实体控制器，这些配件都是特效对应的虚拟按钮。
 
+  **iOS 13**:  
+  ![](../imgs/ios/homekit_3_ios13.jpg ':size=400') 
+
+  **iOS 12**:  
+
   ~ | ~ | ~ | ~
   --  | --  | --  | --
   ![](../imgs/ios/homekit_3_1.jpg ':size=400') | ![](../imgs/ios/homekit_3_2.jpg ':size=400') | ![](../imgs/ios/homekit_3_3.jpg ':size=400') | ![](../imgs/ios/homekit_3_4.jpg ':size=400')
@@ -85,6 +90,14 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
   您的节日彩灯串或氛围灯条已准备就绪。
 
+  **iOS 13**:  
+
+  ~ | ~ 
+  --  | -- 
+  ![](../imgs/ios/homekit_4_1_ios13.jpg ':size=400') | ![](../imgs/ios/homekit_4_2_ios13.jpg ':size=400') 
+
+
+  **iOS 12**:  
   ![](../imgs/ios/homekit_4.jpg ':size=400') 
 
 <!-- tabs:end -->

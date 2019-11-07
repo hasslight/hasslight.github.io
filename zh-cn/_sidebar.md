@@ -9,4 +9,4 @@
   * [延长氛围灯带 / 节日灯串](/zh-cn/extend)
   * [Example.yaml](/zh-cn/hass)
 
-* [在线商店](/zh-cn/store)
+* [在线商店](http://hasslight.taobao.com)

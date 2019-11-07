@@ -9,4 +9,4 @@
   * [Extend LED Strip](/extend)
   * [Example.yaml](/hass)
 
-* [Online Stores](/store)
+* [Online Stores](http://hasslight.taobao.com)

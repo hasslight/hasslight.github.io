@@ -15,8 +15,8 @@ Have fun!
 1. Install [CH340G driver](https://sparks.gogo.co.nz/ch340.html) if you have never done this on your OS.
 2. Download [HassLightFlasher.exe](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0-x64.exe) for Windows or [HassLightFlasher.dmg](https://github.com/hasslight/hasslightflasher/releases/download/v4.0-mod/HassLightFlasher-4.0.dmg) for Mac 
 3. Choose the firmware to download  
-3.1 For Apple HomeKit  [holiday_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_holiday_5V_50_RGB.bin) or [mood_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_GRB.bin)  
-3.2 For Home Assistant [ha_mqtt_holiday_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_holiday_5V_50_RGB.bin) or [ha_mqtt_mood_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_mood_12V_300_GRB.bin)  
+3.1 For Apple HomeKit  [holiday_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_holiday_5V_100_RGB.bin) or [mood_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_GRB.bin)  
+3.2 For Home Assistant [ha_mqtt_holiday_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_holiday_5V_100_RGB.bin) or [ha_mqtt_mood_firmware.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_mood_12V_300_GRB.bin)  
 3.3 *If you are using Linux*, you need 2 additional files [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
 
 > When extending the LED strip longer, check this [Extend LED Strip](/extend)
@@ -26,6 +26,8 @@ Have fun!
 
 ### Mac / Windows
 
+* Make sure jumper header set on **0-hkit**  
+ ![](../imgs/jumper_header.jpg ':size=300')
 
 * Start HassLightFlasher
    * Choose serial port, click refresh if not seen
@@ -50,6 +52,9 @@ Have fun!
 
 ## Home Assistant
 ### Mac / Windows
+
+* Make sure jumper header set on **0-hass**  
+ ![](../imgs/jumper_header_hass.jpg ':size=300')
 
 * Start HassLightFlasher
    * Choose serial port, click refresh if not seen

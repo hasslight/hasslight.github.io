@@ -10,3 +10,4 @@
   * [Example.yaml](/zh-cn/hass)
 
 * [在线商店](http://hasslight.taobao.com)
+* [技术QQ群 185228651](https://jq.qq.com/?_wv=1027&k=5PuDO7k)

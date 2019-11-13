@@ -8,7 +8,7 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 3. 连接到WLED（WLED APP for iOS and Android, Alexa, MQTT etc.）
 
 默认情况下，它带有基于HomeKit的固件，可与iOS 家庭 APP进行交互。
-我们还非常容易刷写基于MQTT的固件，以便与Home Assistant进行交互。 当然，您可以来回切换两种方式。 参考 [刷写固件](flash).
+我们还非常容易刷写基于MQTT的固件，以便与Home Assistant进行交互。 当然，您可以来回切换两种方式。 参考 [刷写固件](zh-cn/flash).
 
 ----
 

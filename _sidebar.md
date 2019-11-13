@@ -10,3 +10,4 @@
   * [Example.yaml](/hass)
 
 * [Online Stores](http://hasslight.taobao.com)
+* [QQ Group 185228651](https://jq.qq.com/?_wv=1027&k=5PuDO7k)

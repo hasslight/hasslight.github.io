@@ -22,16 +22,17 @@
 
 集成方式     |   产品  | 颜色顺序     |  默认       | 长度    | 固件
 --          | --      | --          | --          | --      | --  
-Homekit | 节日彩灯串 (5V)  | RGB | 1 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_holiday_5V_100_RGB.bin) 
-Homekit | 氛围灯带  (12V) | BRG | 1 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_BRG.bin) 
-Homekit | 氛围灯带  (12V) | BRG | 0 | 10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_600_BRG.bin) 
-Homekit | 氛围灯带  (12V) | GRB | 0 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_GRB.bin) 
-Homekit | 氛围灯带  (12V) | GRB | 0 | 10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_600_GRB.bin) 
+HomeKit | 节日彩灯串 (5V)  | RGB | 1 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_holiday_5V_100_RGB.bin) 
+HomeKit | 氛围灯带  (12V) | BRG | 1 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_BRG.bin) 
+HomeKit | 氛围灯带  (12V) | BRG | 0 | 10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_600_BRG.bin) 
+HomeKit | 氛围灯带  (12V) | GRB | 0 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_300_GRB.bin) 
+HomeKit | 氛围灯带  (12V) | GRB | 0 | 10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/homekit_mood_12V_600_GRB.bin) 
 HomeAssistant | 节日彩灯串 (5V) | RGB | 0 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_holiday_5V_100_RGB.bin) 
 HomeAssistant | 氛围灯带  (12V) | BRG | 0 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_mood_12V_300_BRG.bin) 
 HomeAssistant | 氛围灯带  (12V) | GRB | 0 | 5 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/ha_mqtt_mood_12V_300_GRB.bin) 
-WLED | 节日彩灯串 (5V)  | ANY | 0 | 5-10 Meter | [待上传]()
-WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [待上传]()
+WLED | 节日彩灯串 (5V)  | ANY | 0 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/hasslight-wled-0.8.6.bin)
+WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/hasslight-wled-0.8.6.bin)
+
 
  *如果您使用的是Linux命令*，则需要2个其他文件 [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
 
@@ -49,7 +50,7 @@ WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [待上传]()
    * 选择 serial port, 默认是自动选择模式，您也可以选择确定的COM端口
    * 点击 Browse, 选择您刚才下载的固件 *.bin文件
    * 点击 "Flash" 按钮, 成功的日志输入类似下图
-* 然后,  [使用 Apple Homekit](zh-cn/guide) 
+* 然后,  [使用 Apple HomeKit](zh-cn/guide) 
 
 ![](../imgs/hasslightflasher-mac.png)
 
@@ -63,7 +64,7 @@ WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [待上传]()
     $ pip install esptool   
     $ esptool.py --chip esp8266 -p /dev/cu.wchusbserial620 --baud 115200 write_flash -fs detect -fm dio -ff 40m 0x0 rboot.bin 0x1000 blank_config.bin 0x2000 holiday_firmware.bin 
 
-* Next, follow the [User Manual](zh-cn/guide) to config
+* Next, follow the [使用 Apple HomeKit](zh-cn/guide) to config
 ----
 
 ## Home Assistant
@@ -90,4 +91,33 @@ WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [待上传]()
     $ pip install esptool   
     $ esptool.py --chip esp8266 -p /dev/cu.wchusbserial620 --baud 115200 write_flash -fs detect -fm dio -ff 40m 0x0 holiday_firmware.bin 
 
-* Next, follow the [User Manual](zh-cn/guide) to config
+* Next, follow the [使用 Home Assistant](zh-cn/guide) to config
+
+----
+
+## WLED
+### Mac / Windows
+
+* 打开控制器外壳，确认跳线帽的位置如图 **0-hkit**  
+ ![](../imgs/jumper_header.jpg ':size=300')
+
+* 启动 HassLightFlasher
+   * 选择 serial port, 默认是自动选择模式，您也可以选择确定的COM端口
+   * 点击 Browse, 选择您刚才下载的固件 *.bin文件
+   * 点击 "Flash" 按钮, 成功的日志输入类似下图
+* 然后,  [使用 WLED](zh-cn/guide-wled) 
+
+![](../imgs/hasslightflasher-mac.png)
+
+![](../imgs/hasslightflasher-win.png)
+
+
+### Linux
+
+* Install esptool and then flash
+
+    $ pip install esptool   
+    $ esptool.py --chip esp8266 -p /dev/cu.wchusbserial620 --baud 115200 write_flash -fs detect -fm dio -ff 40m 0x0 hasslight-wled-*.bin 
+
+* Next, follow the [使用 WLED](zh-cn/guide-wled) to config
+----

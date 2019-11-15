@@ -23,7 +23,8 @@ We have 2 products.
 
 # Gallery
 
-![](/imgs/holiday1.png)
+![](/imgs/holiday1.png ':size=620')
+![](/imgs/holiday2.png ':size=620')
 ![](/imgs/holiday2.jpg ':size=620')
 ![](/imgs/holiday3.jpg ':size=620')
 ![](/imgs/mood1.jpg ':size=620')

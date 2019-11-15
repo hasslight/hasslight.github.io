@@ -33,8 +33,8 @@ HomeAssistant | 氛围灯带  (12V) | GRB | 0 | 5 Meter | [下载](https://githu
 WLED | 节日彩灯串 (5V)  | ANY | 0 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/hasslight-wled-0.8.6.bin)
 WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [下载](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/hasslight-wled-0.8.6.bin)
 
-
- *如果您使用的是Linux命令*，则需要2个其他文件 [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
+ * *关于颜色顺序*，在我们淘宝店铺出售的WS2811灯带都是BRG顺序的；如果您仅购买HassLight LED智能控制器，准备接自己的WS2811/2812灯带，如果发现颜色顺序不对，可自己下载对应颜色顺序的固件。
+ * *如果您使用的是Linux命令*，则需要2个其他文件 [rboot.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/rboot.bin) and [blank_config.bin](https://github.com/hasslight/hasslight.github.io/releases/download/v1.0/blank_config.bin)  
 
 > 延长灯带默认长度请看 [Extend LED Strip](zh-cn/extend)
 

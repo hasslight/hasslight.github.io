@@ -6,7 +6,7 @@
     
 * 定制
   * [刷写固件](/zh-cn/flash)
-  * [延长氛围灯带 / 节日灯串](/zh-cn/extend)
+  * [延长灯带 最佳实践](/zh-cn/extend)
   * [Example.yaml](/zh-cn/hass)
 
 * [在线商店](http://hasslight.taobao.com)

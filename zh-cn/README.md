@@ -24,7 +24,8 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
 # 图集 :id=gallery
 
-![](../imgs/holiday1.png)
+![](../imgs/holiday1.png ':size=620')
+![](../imgs/holiday2.png ':size=620')
 ![](../imgs/holiday2.jpg ':size=620')
 ![](../imgs/holiday3.jpg ':size=620')
 ![](../imgs/mood1.jpg ':size=620')

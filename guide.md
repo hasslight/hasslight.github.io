@@ -104,9 +104,62 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 <!-- tabs:end -->
 
-5. Change the LED effect / speed etc.
+5. **(iOS 13 Only)** How to change the Group & Stacked "Single Tile" to "Seperate Tile", aka. iOS 13 style to iOS 12 style
 
-6. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
+  First tap "HASSLIGHT", then scrol down to the bottom, tap "Show as Seperate Tiles", then you'll see picture 5.3 which is the iOS 12 style.  
+
+  To switch it back to "Single Tile", the steps are the same. First long tap any "Tile", then scrol down to the bottom, then tap "Show as Single Tile". 
+
+5.1 | 5.2 | 5.3 
+-- | -- | -- 
+![](/imgs/ios/single_tile.jpg ':size=400') | ![](/imgs/ios/single_tile_change.jpg ':size=400') | ![](/imgs/ios/seperate_tile.jpg ':size=400') 
+
+
+6. Change the LED color / effect / speed etc.
+
+  Tiles info:  
+  **HASSLIGHT**: The light bulb, The LED Strip, controls color, brightness  
+  **A HASSLIGHT FX SPEED**: The virtual light bulb, controls 52 hidden effects, when change this tile's brightness it actually changes the current animation speed  
+
+  **Christmas**: an animation effect, plus brightness  
+  **Fireworks**: an animation effect, plus brightness  
+  **Halloween**: an animation effect, plus brightness  
+  **Rainbow**: an animation effect, plus brightness  
+  **Twinkle**: an animation effect, plus brightness  
+  **Warm White**: an animation effect, plus brightness  
+
+6.1. How to change the LED color or brightness?  
+
+  First turn off any effect which may be on. Then tap the "HASSLIGHT" tile to set the solid color mode.
+  Next "Long tap" the "HASSLIGHT" title to edit the color you need. Steps are shown below.
+
+  Changing the brightness is much simpler, just "Tap and Scroll" the brightness bar up and down. (the step2 pictures)
+
+&nbsp; | Step 1 | Step 2 | Step 3 
+-- | -- | -- | -- 
+Seperate Tile on iOS 13 or iOS 12 | ![](/imgs/ios/color_12.jpg ':size=400') | ![](/imgs/ios/color_12_1.jpg ':size=400') | ![](/imgs/ios/color.jpg ':size=400') 
+Single Tile on iOS 13 | ![](/imgs/ios/color_13.jpg ':size=400') | ![](/imgs/ios/color_13_1.jpg ':size=400') | ![](/imgs/ios/color.jpg ':size=400') 
+
+6.2. How to change the LED effects?  
+  
+
+  **The Preset Effects**
+
+  Changing the preset effects is quite abvious, just "Tap" Christmas, Fireworks, Halloween, Rainbow, Twinkle, Warm White 
+
+  **The Hidden Effects**  
+
+  There are 52 hidden effects, you can access them by edit "A HASSLIGHT FX SPEED" color, the edit steps are similar to edit the solid color, only difference is that current tile is "A HASSLIGHT FX SPEED". 
+  
+  There is no corresponding text shown the effect name though. You can just see how the LED strip response to your change.
+  
+  Steps are shown below.
+
+iOS 12 / Seperate Tile | iOS 13 Single Tile | Edit Effect | Effects color wheel 
+-- | -- | -- | -- 
+![](/imgs/ios/effect12_1.jpg ':size=400') | ![](/imgs/ios/effect13_1.jpg ':size=400') | ![](/imgs/ios/effect2.jpg ':size=400') | ![](/imgs/ios/effect3.jpg ':size=400')
+
+7. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)
 
   **Press and Hold** for 6 seconds to reset the controller, the LED strip will blink for 3 rounds to indicate that reset is done. Then go back to step 3 to connect it back.
 

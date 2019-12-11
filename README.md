@@ -27,6 +27,7 @@ We have 2 products.
 ![](/imgs/holiday2.png ':size=620')
 ![](/imgs/holiday2.jpg ':size=620')
 ![](/imgs/holiday3.jpg ':size=620')
+![](/imgs/holiday4.jpg ':size=620')
 ![](/imgs/mood1.jpg ':size=620')
 ![](/imgs/mood2.jpg ':size=620')
 ![](/imgs/mood3.jpg ':size=620')

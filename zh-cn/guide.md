@@ -20,7 +20,7 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 2. 将电源线连接到控制器。
  
     **单击**控制器上的按钮以将其打开/关闭。  
-    **双击**控制器上的按钮以切换预设主题。 （白色，圣诞节，万圣节，彩虹，闪烁，眨眼）
+    **双击**控制器上的按钮以切换预设主题。 （白色，圣诞节，万圣节，彩虹，小星星，烟花）
 
 3. 使用iPhone / iPad将控制器配置连接到您的家庭WiFi网络。
 
@@ -103,11 +103,13 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
 <!-- tabs:end -->
 
-5. **(iOS 13 Only)** How to change the Group & Stacked "Single Tile" to "Seperate Tile", aka. iOS 13 style to iOS 12 style
+5. **(iOS 13 适用)** 如何改变界面 "单一板块 整体显示" 和 "单独版块 分开显示" ？ 即家庭APP的iOS 13风格和iOS 12风格
 
-  First tap "HASSLIGHT", then scrol down to the bottom, tap "Show as Seperate Tiles", then you'll see picture 5.3 which is the iOS 12 style.  
+  * **iOS 12 "单独面板 / 拆分面板"风格**  
+  首先点击 "HASSLIGHT"， 然后向下滑动到低端， 点击 "作为单独面板分开显示"， 然后就能看到如下所示的iOS 12风格 (图5.3).  
 
-  To switch it back to "Single Tile", the steps are the same. First long tap any "Tile", then scrol down to the bottom, then tap "Show as Single Tile". 
+  * **iOS 13 "单一面板 / 整体面板"风格**  
+  首先点击"HASSLIGHT" (或 任一单独面板)， 然后向下滑动到低端， 点击 "作为单一面板整体显示"，然后就能看到如下所示的iOS 13风格 (图5.1).  
 
 5.1 | 5.2 | 5.3 
 -- | -- | -- 
@@ -116,39 +118,46 @@ HassLight LED 控制器可让您将LED灯条连接到智能家居，并通过"Si
 
 6. 更改LED颜色/效果/速度等
 
-  Tiles info:  
-  **HASSLIGHT**: The light bulb, The LED Strip, controls color, brightness  
-  **A HASSLIGHT FX SPEED**: The virtual light bulb, controls 52 hidden effects, when change this tile's brightness it actually changes the current animation speed  
+  面板介绍: 
 
-  **Christmas**: an animation effect, plus brightness  
-  **Fireworks**: an animation effect, plus brightness  
-  **Halloween**: an animation effect, plus brightness  
-  **Rainbow**: an animation effect, plus brightness  
-  **Twinkle**: an animation effect, plus brightness  
-  **Warm White**: an animation effect, plus brightness  
+  **HASSLIGHT**: LED 灯串/灯带， 客厅调节颜色，亮度  
+  **A HASSLIGHT FX SPEED**: 这是特效面板， 可以设置52个隐藏特效，修改这个面板的亮度其实是调节当前动画效果的速度
 
-6.1. How to change the LED color or brightness?  
+  **Christmas**: 预设 圣诞节特效， 亮度调节  
+  **Fireworks**: 预设 烟花特效， 亮度调节  
+  **Halloween**: 预设 万圣节特效， 亮度调节  
+  **Rainbow**: 预设 彩虹特效， 亮度调节  
+  **Twinkle**: 预设 小星星特效， 亮度调节  
+  **Warm White**: 预设 暖白纯色， 亮度调节  
 
-  First turn off any effect which may be on. Then tap the "HASSLIGHT" tile to set the solid color mode.
-  Next "Long tap" the "HASSLIGHT" title to edit the color you need. Steps are shown below.
+  > 上面是默认的面板名称，你可以随意重命名，以获得更加灵活的Siri语音控制体验。 举例:  
+  * 把"HASSLIGHT"命名成"节日彩灯"  -->  "Hey Siri, 打开节日彩灯，把节日彩灯调成粉色，把节日彩灯亮度调成50%"
+  * 把"Christmas"命名成"圣诞树"    --> "Hey Siri, 打开圣诞树"，
+  * 把"Rainbow"命名成"彩虹桥"      --> "Hey Siri, 打开彩虹桥"  
 
-  Changing the brightness is much simpler, just "Tap and Scroll" the brightness bar up and down. (the step2 pictures)
+6.1. 如何修改LED灯带的颜色和亮度？  
 
-&nbsp; | Step 1 | Step 2 | Step 3 
+  * 首先应该关闭当前已打开的特效，仅打开"HASSLIGHT"这样灯带进入纯色模式，参考步骤1图片  
+  * **长按**"HASSLIGHT"，就能打开如下图步骤2图片所示的界面
+  * 点步骤2颜色圆圈里的**编辑**，出现如下图步骤3图片所示的色盘，编辑完的颜色会出现在常用颜色里
+
+  * 更改亮度很简单，按住并且滑动步骤2图中的亮度指示条即可。
+
+&nbsp; | 步骤 1 | 步骤 2 | 步骤 3 
 -- | -- | -- | -- 
 Seperate Tile on iOS 13 or iOS 12 | ![](../imgs/ios/color_12.jpg ':size=400') | ![](../imgs/ios/color_12_1.jpg ':size=400') | ![](../imgs/ios/color.jpg ':size=400') 
 Single Tile on iOS 13 | ![](../imgs/ios/color_13.jpg ':size=400') | ![](../imgs/ios/color_13_1.jpg ':size=400') | ![](../imgs/ios/color.jpg ':size=400') 
 
-6.2. How to change the LED effects?  
+6.2. 如何修改LED灯带特效？  
   
 
-  **The Preset Effects**
+  **预设特效**
 
-  Changing the preset effects is quite abvious, just "Tap" Christmas, Fireworks, Halloween, Rainbow, Twinkle, Warm White 
+  Changing the preset effects is quite abvious， just "Tap" Christmas， Fireworks， Halloween， Rainbow， Twinkle， Warm White 
 
-  **The Hidden Effects**  
+  **隐藏特效**  
 
-  There are 52 hidden effects, you can access them by edit "A HASSLIGHT FX SPEED" color, the edit steps are similar to edit the solid color, only difference is that current tile is "A HASSLIGHT FX SPEED". 
+  There are 52 hidden effects， you can access them by edit "A HASSLIGHT FX SPEED" color， the edit steps are similar to edit the solid color， only difference is that current tile is "A HASSLIGHT FX SPEED". 
   
   There is no corresponding text shown the effect name though. You can just see how the LED strip response to your change.
   

@@ -20,7 +20,7 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 2. Connect the power cable to the controller. 
  
    **Single click** the button on the controller to toggle it on/off.  
-   **Double click** the button on the controller to switch the build in themes. (White, Blink, Christmas, Halloween, Rainbow, Twinkle)
+   **Double click** the button on the controller to switch the build in themes. (White, Christmas, Fireworks, Halloween, Rainbow, Twinkle)
 
 3. Use an iPhone/iPad to configure the controller to connect to your home WiFi network.
 
@@ -106,9 +106,11 @@ We also made it quite easy to flash the MQTT based firmware, in order to interac
 
 5. **(iOS 13 Only)** How to change the Group & Stacked "Single Tile" to "Seperate Tile", aka. iOS 13 style to iOS 12 style
 
-  First tap "HASSLIGHT", then scrol down to the bottom, tap "Show as Seperate Tiles", then you'll see picture 5.3 which is the iOS 12 style.  
+ * **iOS 12 "Seperate Tile"**  
+  First tap "HASSLIGHT", then scroll down to the bottom, tap "Show as Seperate Tiles", then you'll see picture 5.3 which is the iOS 12 style.  
 
-  To switch it back to "Single Tile", the steps are the same. First long tap any "Tile", then scrol down to the bottom, then tap "Show as Single Tile". 
+ * **iOS 13 "Single Tile"**  
+  To switch it back to "Single Tile", the steps are the same. First long tap any "Tile", then scroll down to the bottom, then tap "Show as Single Tile". 
 
 5.1 | 5.2 | 5.3 
 -- | -- | -- 

@@ -41,9 +41,22 @@
                         '</figcaption></figure>'
                 }
             }
-        }
+        },
       // coverpage: true
       //...
+      plugins: [
+        function (hook) {
+          var footer = [
+            '<footer style="text-align: center">',
+            '<span><a target="_blank" href="http://www.beian.miit.gov.cn">沪ICP备14011593号-4</a> </span>',
+            '</footer>'
+          ].join('')
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.js"></script>

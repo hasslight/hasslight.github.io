@@ -46,6 +46,8 @@ WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [下载](https://github.com/
 * 打开控制器外壳，确认跳线帽的位置如图 **0-hkit**  
  ![](../imgs/jumper_header.jpg ':size=300')
 
+* 连接控制器芯片的**Micro-USB**接口
+
 * 启动 HassLightFlasher
    * 选择 serial port, 默认是自动选择模式，您也可以选择确定的COM端口
    * 点击 Browse, 选择您刚才下载的固件 *.bin文件

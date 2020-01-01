@@ -41,6 +41,8 @@ WLED | Mood LED Strip (12V) | ANY | 0 | 5-10 Meter | [Download](https://github.c
 * Make sure jumper header set on **0-hkit**  
  ![](../imgs/jumper_header.jpg ':size=300')
 
+* Connect to the Micro-USB port on PCB
+
 * Start HassLightFlasher
    * Choose serial port, click refresh if not seen
    * Choose the firmware.bin which you just download 

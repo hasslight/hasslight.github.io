@@ -1,9 +1,13 @@
 * Getting started
   * [Home](/)
+* Holiday / Mood LED  
   * [Use Apple HomeKit](/guide)
   * [Use Home Assistant](/guide-ha)
   * [Use WLED](/guide-wled)
-    
+* Dimmer / RGB / RGBW
+  * [Use Apple HomeKit](/guide-rgbw)
+  * [Use Home Assistant](/guide-rgbw-ha)
+  
 * Customization
   * [Flash Firmware](/flash)
   * [Extend LED Strip](/extend)

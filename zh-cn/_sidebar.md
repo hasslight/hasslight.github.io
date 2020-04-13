@@ -1,8 +1,12 @@
 * 开始
   * [首页](/zh-cn/)
+* 节日彩灯串 / 氛围灯带  
   * [使用 Apple HomeKit](/zh-cn/guide)
   * [使用 Home Assistant](/zh-cn/guide-ha)
   * [使用 WLED](/zh-cn/guide-wled)
+* 纯色调光 / 全彩 RGB/RGBW
+  * [使用 Apple HomeKit](/zh-cn/guide-rgbw)
+  * [使用 Home Assistant](/zh-cn/guide-rgbw-ha)
     
 * 定制
   * [刷写固件](/zh-cn/flash)

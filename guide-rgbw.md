@@ -62,10 +62,9 @@ The steps for pairing an Dimmer or RGB or RGBW controller is the same. Only diff
 
   #### ** 3 **
 
-  Add Accessory one by one, just click **Next** all the way till the end.   
-  By the way the LED strip will blink 3 times for "Indentify Accessory", since it's just one phicical device, thus the effects are virtual buttons for convenience.
+  Add Accessory by just click **Next** all the way till the end.   
 
-  ![](/imgs/ios/homekit_3_ios13.jpg ':size=400') 
+  ![](/imgs/ios/homekit_3_ios13_rgbw.jpg ':size=400') 
 
   #### ** 4 **
 
@@ -73,19 +72,19 @@ The steps for pairing an Dimmer or RGB or RGBW controller is the same. Only diff
   
   ~ | ~ 
   --  | -- 
-  ![](/imgs/ios/homekit_4_1_ios13.jpg ':size=400') | ![](/imgs/ios/homekit_4_2_ios13.jpg ':size=400') 
+  ![](/imgs/ios/homekit_4_1_ios13_rgbw.jpg ':size=400') | ![](/imgs/ios/homekit_4_2_ios13_rgbw.jpg ':size=400') 
 
 <!-- tabs:end -->
 
 5. How to change the LED color or brightness?  
 
-  First "Long tap" the "HASSLIGHT RGBW" title to edit the color you need. Steps are shown below.
+  First "Long tap" the "HassLight RGBW" title to edit the color you need. Steps are shown below.
 
   Changing the brightness is much simpler, just "Tap and Scroll" the brightness bar up and down. (the step2 pictures)
 
   ~ | ~ | ~ 
   -- | -- | --
-  ![](/imgs/ios/color_13.jpg ':size=400') | ![](/imgs/ios/color_13_1.jpg ':size=400') | ![](/imgs/ios/color.jpg ':size=400') 
+  ![](/imgs/ios/homekit_4_1_ios13_rgbw.jpg ':size=400') | ![](/imgs/ios/homekit_4_2_ios13_rgbw.jpg ':size=400') | ![](/imgs/ios/homekit_4_3_ios13_rgbw.jpg ':size=400') 
 
 
 6. **(Optional)** Reset the controller in case of WiFi changes (new wireless router / changed password etc.)

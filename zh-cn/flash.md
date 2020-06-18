@@ -109,9 +109,9 @@ WLED | 氛围灯带  (12V) | ANY | 0 | 5-10 Meter | [下载](https://github.com/
    * 点击 "Flash" 按钮, 成功的日志输入类似下图
 * 然后,  [使用 WLED](zh-cn/guide-wled) 
 
-![](../imgs/hasslightflasher-mac.png)
+![](../imgs/hasslightflasher-mac-ha.png)
 
-![](../imgs/hasslightflasher-win.png)
+![](../imgs/hasslightflasher-win-ha.png)
 
 
 ### Linux
